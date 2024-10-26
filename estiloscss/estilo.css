@@ -1,11 +1,37 @@
 * {
     font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
-  }
+}
 
-  h1 {
+h1 {
     font-style: italic
-  }
+}
 
-  #title {
+#title {
     color: darkgrey;
-  }
+}
+
+h2 {
+    font-family: 'Trebuchet MS';
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+}
+
+#links {
+    list-style-type: none;
+}
+
+#seccionidiomas table {
+    border: 0.8pt solid #c1bdbd;
+    text-align: left;
+    margin: 0 auto;
+}
+
+td{
+    text-align: center;
+}
