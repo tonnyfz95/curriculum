@@ -1,37 +1,109 @@
 * {
-    font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h1 {
-    font-style: italic
+body {
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #f4f4f9;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 #title {
+    font-style: italic;
     color: darkgrey;
-}
-
-h2 {
-    font-family: 'Trebuchet MS';
-}
-
-a {
-    text-decoration: none;
-}
-
-p {
+    font-size: 2em;
     text-align: center;
 }
 
-#links {
+nav {
+    background: #333;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav ul {
     list-style-type: none;
 }
 
-#seccionidiomas table {
-    border: 0.8pt solid #c1bdbd;
-    text-align: left;
-    margin: 0 auto;
+nav ul li {
+    display: inline;
+    margin: 0 15px;
 }
 
-td{
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.seccion {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.seccion h2 {
+    font-family: 'Trebuchet MS';
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.seccion p {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#seccionredes a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #0073b1;
+    text-decoration: none;
+}
+
+#seccionidiomas table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#seccionidiomas th, #seccionidiomas td {
+    border: 1px solid #c1bdbd;
+    padding: 8px;
     text-align: center;
+}
+
+#seccionidiomas th {
+    background-color: #f0f0f0;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+.redes-sociales {
+    margin-top: 15px;
+}
+
+.icono {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px; 
+    transition: transform 0.3s;
+}
+
+.icono:hover {
+    transform: scale(1.1);
 }

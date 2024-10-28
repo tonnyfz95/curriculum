@@ -1,111 +1,123 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
     <meta charset="utf-8">
     <title>Curriculum vitae - Tonny Gustavo Figueroa Zerna</title>
+    <link rel="stylesheet" href="estiloscss/estilo.css">
+    <link>
 </head>
 
 <body>
-    <h1 id="title">Curriculum Vitae</h1>
-    <link rel="stylesheet" href="estiloscss/estilo.css">
-    <p>
-        ¡Hola! Soy Tonny Gustavo Figueroa Zerna, y me considero una persona proactiva, con muchas ganas de seguir
-        aprendiendo y aportando en cualquier proyecto o equipo en el que participe. Me apasiona resolver problemas de
-        manera creativa y encontrar soluciones que realmente marquen la diferencia, ya sea en el ámbito tecnológico o en
-        cualquier otro entorno.
+    <header>
+        <h1 id="title">Curriculum Vitae</h1>
+    </header>
 
-        He tenido la oportunidad de trabajar en varios proyectos relacionados con el desarrollo de software, donde he
-        aprendido a manejar herramientas como JavaScript, React, Node.js, y otras tecnologías que me permiten construir
-        aplicaciones y plataformas eficientes. Pero más allá de los lenguajes y frameworks, lo que más disfruto es la
-        sensación de llevar una idea desde su concepto hasta una solución funcional que hace la vida más fácil para
-        otros.
+    <nav>
+        <ul>
+            <li><a href="#secciondatos">Datos Personales</a></li>
+            <li><a href="#seccionredes">Redes Sociales</a></li>
+            <li><a href="#seccionhabilidades">Habilidades Profesionales</a></li>
+            <li><a href="#secciontransversales">Contenidos Transversales</a></li>
+            <li><a href="#seccionidiomas">Idiomas</a></li>
+            <li><a href="#seccioncontacto">Contacto</a></li>
+        </ul>
+    </nav>
 
-    </p>
-    <h2>Datos Personales</h2>
+    <section id="secciondatos" class="seccion">
+        <h2>Datos Personales</h2>
+        <p>¡Hola! Soy Tonny Gustavo Figueroa Zerna, y me considero una persona proactiva...</p>
+    </section>
 
     <section id="seccionredes" class="seccion">
         <h2>Redes Sociales</h2>
-        <span>
+        <p>
             <a href="https://ec.linkedin.com/" target="_blank">LinkedIn</a>
             <a href="https://github.com/" target="_self">GitHub</a>
-        </span>
+        </p>
     </section>
 
-    <h2>Habilidades Profesionales</h2>
-
-    <nav>
-
-        <ul id="links">
+    <section id="seccionhabilidades" class="seccion">
+        <h2>Habilidades Profesionales</h2>
+        <ul>
             <li>HTML & CSS</li>
             <li>JavaScript</li>
             <li>ReactJS</li>
             <li>Django</li>
             <li>Express</li>
         </ul>
-    </nav>
+    </section>
 
-    <h2>Contenidos Transversales</h2>
-    <ol>
-        <li>Docker</li>
-        <li>AWS</li>
-        <li>CI/CD</li>
-        <li>Scrum</li>
-    </ol>
-
-    <h2>Contactame</h2>
-
-    <h3>Sus Datos</h3>
-
-    <h3>Ubicación</h3>
+    <section id="secciontransversales" class="seccion">
+        <h2>Contenidos Transversales</h2>
+        <ol>
+            <li>Docker</li>
+            <li>AWS</li>
+            <li>CI/CD</li>
+            <li>Scrum</li>
+        </ol>
+    </section>
 
     <section id="seccionidiomas" class="seccion">
-        <h3>Idiomas</h3>
+        <h2>Idiomas</h2>
         <table>
             <thead>
                 <tr>
                     <th></th>
-                    <th> Bajo</th>
-                    <th> Medio</th>
-                    <th> Intermedio</th>
-                    <th> Alto</th>
+                    <th>Bajo</th>
+                    <th>Medio</th>
+                    <th>Intermedio</th>
+                    <th>Alto</th>
                 </tr>
-            <tr>
-                <th>Ingles</th>
-                <td></td>
-                <td>x</td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <th>Español</th>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td>x</td>
-            </tr>
-            <tr>
-                <th>Frances</th>
-                <td>x</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-        </thead>
-        <tbody>
-           
-        </tbody>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Inglés</th>
+                    <td></td>
+                    <td>x</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Español</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td>x</td>
+                </tr>
+                <tr>
+                    <th>Francés</th>
+                    <td>x</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
         </table>
-
     </section>
 
-    <section id="secciondatos" class="seccion"> ... </section>
-    <section id="seccionredes" class="seccion"> ... </section>
-    <section id="seccionhabilidades" class="seccion"> ... </section>
-    <section id="secciontransversales" class="seccion"> ... </section>
-    <section id="secciongaleria" class="seccion"> ... </section>
-    <section id="seccioncontactenos" class="seccion"> ... </section>
+    <section id="seccioncontacto" class="seccion">
+        <h2>Contacto</h2>
+        <p>Para más información, por favor contáctame.</p>
+        <div class="redes-sociales">
+            <a href="https://wa.me/123456789" target="_blank" title="WhatsApp">
+                <img src="imagenes/whatsapp.png" alt="WhatsApp" class="icono">
+            </a>
+            <a href="https://www.linkedin.com/in/tu-perfil" target="_blank" title="LinkedIn">
+                <img src="imagenes/linkedin.png" alt="LinkedIn" class="icono">
+            </a>
+            <a href="https://www.facebook.com/tu-pagina" target="_blank" title="Facebook">
+                <img src="imagenes/facebook.png" alt="Facebook" class="icono">
+            </a>
+            <a href="https://www.instagram.com/tu-perfil" target="_blank" title="Instagram">
+                <img src="imagenes/instagram.png" alt="Instagram" class="icono">
+            </a>
+        </div>
+    </section>
 
+    <footer>
+        <p>&copy; 2024 Tonny Gustavo Figueroa Zerna - Curriculum Vitae</p>
+    </footer>
 </body>
 
 </html>
